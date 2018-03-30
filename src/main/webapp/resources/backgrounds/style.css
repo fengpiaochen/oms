@@ -1,0 +1,42 @@
+@font-face {
+    font-family: 'backgrounds';
+    src:    url('fonts/backgrounds.eot?thfc7b');
+    src:    url('fonts/backgrounds.eot?thfc7b#iefix') format('embedded-opentype'),
+        url('fonts/backgrounds.ttf?thfc7b') format('truetype'),
+        url('fonts/backgrounds.woff?thfc7b') format('woff'),
+        url('fonts/backgrounds.svg?thfc7b#backgrounds') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="bg-"], [class*=" bg-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'backgrounds' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.bg-border-square:before {
+    content: "\e710";
+}
+.bg-square:before {
+    content: "\e6c9";
+}
+.bg-rounded-square:before {
+    content: "\e6d1";
+}
+.bg-circle:before {
+    content: "\e70d";
+}
+.bg-border-circle:before {
+    content: "\e712";
+}
+
